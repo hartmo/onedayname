@@ -51,7 +51,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-  padding-top: 2%;
+	padding-top: 2%;
 }
 .order-list .list .order {
 	line-height: 0.36rem;
@@ -96,4 +96,19 @@ body {
 .order-list .title {
 	font-size: 0.21rem;
 	color: #666;
+}
+.btn-active {
+	text-align: center;
+}
+.btn-active span {
+	margin: auto;
+	text-align: center;
+	line-height: 0.6rem;
+	padding: 0.15rem 0.8rem;
+	color: #fff;
+	background: #ff9000;
+	margin-top: 0.3rem;
+	font-size: 0.4rem;
+	border-radius: 0.1rem;
+	display: inline-block;
 }
