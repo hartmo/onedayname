@@ -1,0 +1,99 @@
+html,
+body {
+	background: #fff;
+}
+.order-warp {
+	height: 0.8rem;
+	width: 100%;
+	border-bottom: 1px solid #666;
+	line-height: 0.8rem;
+	margin: auto;
+}
+.order-warp {
+	list-style: none;
+}
+.order-warp li {
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 0.8rem;
+	height: 0.8rem;
+	font-size: 0.28rem;
+}
+.order-warp .active {
+	color: #ff9000;
+	height: 0.79rem;
+	border-bottom: 3px solid #ff9000;
+}
+.order-list {
+	margin: 0.2rem;
+}
+.order-list .list {
+	font-size: 0.28rem;
+	border-bottom: 1px solid #666;
+	min-height: 1.4rem;
+	padding: 0.2rem 0;
+	padding-right: 0.2rem;
+	position: relative;
+}
+.order-list .list .order-left img {
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.order-list .list .order-left {
+	position: relative;
+	float: left;
+	width: 1.5rem;
+	height: 1.5rem;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+  padding-top: 2%;
+}
+.order-list .list .order {
+	line-height: 0.36rem;
+	width: 80%;
+}
+.order-list .list .right {
+	position: absolute;
+	right: 0.4rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 1.5rem;
+}
+.order-list .list .right .blue {
+	color: rgb(0, 0, 199);
+}
+.order-list .list .right .red {
+	color: rgb(177, 0, 0);
+}
+.btn-blue {
+	background: rgb(0, 0, 199);
+}
+.btn-red {
+	background: rgb(177, 0, 0);
+}
+.order-list .list .btn-arr {
+	line-height: 1;
+}
+.order-list .list .btn-arr div {
+	color: #fff;
+	border-radius: 0.5rem;
+	text-align: center;
+	padding: 0.1rem 0.4rem;
+	font-size: 0.16rem;
+}
+.order-list .list .btn-arr div:nth-child(1) {
+	margin-top: 0.3rem;
+}
+.order-list .list .btn-arr div:nth-child(2) {
+	margin-top: 0.5rem;
+}
+.order-list .title {
+	font-size: 0.21rem;
+	color: #666;
+}

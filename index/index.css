@@ -1,0 +1,9 @@
+html,
+body {
+	background: #fff;
+}
+.warp {
+	font-size: 0.24rem;
+	height: 3rem;
+	background: #d4602b;
+}

@@ -1,0 +1,50 @@
+html,
+body {
+	background: #fff;
+}
+.personal-warp {
+	font-size: 0.24rem;
+	height: 3rem;
+	background: #d4602b;
+	color: #fff;
+}
+.f-l {
+	float: left;
+}
+.personal-box {
+	width: 90%;
+	margin: auto;
+	padding-top: 1rem;
+}
+.header-left {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.1rem;
+	display: inline-block;
+	background: url("../images/header.png");
+	border-radius: 50%;
+}
+.header-right {
+	display: inline-block;
+	font-size: 0.36rem;
+	margin-left: 0.3rem;
+	margin-top: -0.1rem;
+}
+.header-right .name {
+	line-height: 0.6rem;
+}
+.personal-list .li {
+	height: 1rem;
+	line-height: 1rem;
+	padding: 0 0.3rem;
+	border-bottom: 1px solid #666;
+	font-size: 0.26rem;
+	position: relative;
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+
+.personal-list .icon-you {
+	float: right;
+}
